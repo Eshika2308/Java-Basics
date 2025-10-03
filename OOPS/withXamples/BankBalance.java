@@ -1,13 +1,5 @@
 package OOPS.withXamples;
 
-
-//Write a basic class called BankBalance that performs below activities:
-//1. getBalance() -> returns account balance.
-//2. deposit() -> add amount to balance
-//3. withdraw() -> withdraw amount from balance.
-//create object in main class and take user input.
-
-
 public class BankBalance {
 
     private double balance;//not intialized
@@ -27,6 +19,7 @@ public class BankBalance {
 
     public double getBalance()
     {
+
         return balance;
     }
     public void deposit(int depositValue){
@@ -46,5 +39,5 @@ public class BankBalance {
 
     }
 
-
+    
 }
